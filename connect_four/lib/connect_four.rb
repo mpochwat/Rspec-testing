@@ -1,5 +1,3 @@
-ARROW = '\u2b07'
-PIECE = '\u2b24'
 class Game
 	PIECE = '\u2b24'
 	ARROW = '\u2b07'
@@ -240,6 +238,3 @@ class Board
 		@board.include?(:blank)
 	end
 end
-
-#game = Game.new
-#game.play
